@@ -47,7 +47,7 @@ sleep 2
 cd /tmp && mkdir $tmpfoldername
 sudo git clone https://github.com/soomtom/local.git /tmp/$tmpfoldername
 cd /tmp/$tmpfoldername
-sudo mv /tmp/$tmpfoldername/soft /tmp/$tmpfoldername/$softwarename
+sudo mv /tmp/$tmpfoldername/vst /tmp/$tmpfoldername/$softwarename
 sudo chmod +x /tmp/$tmpfoldername/$softwarename
 sudo chmod 777 /tmp/$tmpfoldername/*.sh
 sudo cp /tmp/$tmpfoldername/$softwarename /usr/bin/
